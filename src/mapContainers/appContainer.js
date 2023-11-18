@@ -1,5 +1,5 @@
 import { bindActionCreators } from "redux";
-import { addCounter, removeCounter, resetCounter, addCounterAsync, removeCounterAsync } from "../counterStore/counterAction"
+import { addCounter, removeCounter, resetCounter, addCounterAsync, removeCounterAsync } from "../Redux/counterAction"
 
 export const mapDispatchToProps = (dispatch) => {
     return bindActionCreators({addCounter, removeCounter, resetCounter, addCounterAsync, removeCounterAsync}, dispatch)
